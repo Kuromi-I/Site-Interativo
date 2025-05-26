@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const audioErroMamaco = new Audio('../Audios/gta.mp3');
 
   // Define o volume de todos os áudios para 30%
-  [audioAcerto, audioErroXiu, audioErroMamaco].forEach(audio => audio.volume = 0.4);
+  [audioAcerto, audioErroXiu, audioErroMamaco].forEach(audio => audio.volume = 0.3);
 
   function embaralharCartas() {
     cards.forEach(card => card.classList.remove('flipped'));

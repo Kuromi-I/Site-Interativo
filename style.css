@@ -124,9 +124,16 @@ nav a {
   padding: 10px 20px;
   border-radius: 5px;
 }
-nav a:hover {
-  text-decoration: underline;
-  background-color: #16174b;
+nav a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+nav a:hover::after {
+  width: 100%;
 }
 
 .hero {
@@ -144,6 +151,18 @@ nav a:hover {
   text-decoration: none;
   border-radius: 5px;
 }
+.botao::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+.botao:hover::after {
+  width: 100%;
+}
+
 
 .servicos {
   padding: 40px 20px;

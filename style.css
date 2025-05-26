@@ -172,6 +172,7 @@ footer {
   padding: 20px;
 }
 .audio-wrapper {
+  display: flex;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -214,6 +215,9 @@ footer {
 }
 .audio-controls button,
 .audio-controls input[type="range"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.3);
   border: none;
   color: #fff;
@@ -240,6 +244,7 @@ footer {
 
 #progressBar,
 #volumeBar {
+  display: flex;
   -webkit-appearance: none;
   appearance: none;
   width: 100px;

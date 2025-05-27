@@ -322,3 +322,15 @@ footer {
 #volumeBar {
   padding: 0;
 }
+.links a{
+  text-decoration: none;
+  color: #fcfaff;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.links a:hover{
+  color: #af69f1;
+  text-shadow: 1px 1px 4px #171717;
+}
